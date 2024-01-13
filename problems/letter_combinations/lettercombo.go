@@ -1,5 +1,8 @@
 /* https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 Not Accepted Yet
+- this isn't really the right approach
+- gives all the bigrams of the set of included letters, not just selecting one from each number
+- I cheated and looked at the recursion examples, so I'm not going to copy/paste them here
 */
 package lettercombo
 
@@ -41,3 +44,4 @@ func makeLettersSlice(digits string) []string {
 
 	return letters_slice
 }
+
